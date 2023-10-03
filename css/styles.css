@@ -139,6 +139,25 @@ header {
         "Nezuko"
         "Zenitsu"
         "inosuke";
+
+        margin: 400px 10px 0;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .lista-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        gap: 10px;
     }
 
 }
