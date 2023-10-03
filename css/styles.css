@@ -100,6 +100,26 @@ p {
 
 }
 
+#pilares {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "Giyu Shinobu"
+    "Kyojuro Tengen"
+    "Mitsuri Muichiro"
+    "Gyomei Obanai"
+    "Sanemi ."
+;
+
+    gap: 20px;
+    margin: 150px 10px 0;
+}
+
+  .Giyu, .Shinobu, .Kyojuro, .Tengen, .Mitsuri, .Muichiro, .Gyomei, .Obanai, .Sanemi {
+    max-width: 100%;
+
+}
+
 img {
  width: 100%;
 }
@@ -130,6 +150,51 @@ header {
     background: rgba(34, 34, 36, 0.788);
   }
 
+  .Giyu {
+    grid-area: Giyu;
+    background: rgba(34, 34, 36, 0.788);
+}
+
+.Shinobu {
+    grid-area: Shinobu;
+    background: rgba(34, 34, 36, 0.788);
+}
+
+.Kyojuro {
+    grid-area: Kyojuro;
+    background: rgba(34, 34, 36, 0.788);
+}
+
+.Tengen {
+    grid-area: Tengen;
+    background: rgba(34, 34, 36, 0.788);
+}
+
+.Mitsuri {
+    grid-area: Mitsuri;
+    background: rgba(34, 34, 36, 0.788);
+}
+
+.Muichiro {
+    grid-area: Muichiro;
+    background: rgba(34, 34, 36, 0.788);
+}
+
+.Gyomei {
+    grid-area: Gyomei;
+    background: rgba(34, 34, 36, 0.788);
+}
+
+.Obanai {
+    grid-area: Obanai;
+    background: rgba(34, 34, 36, 0.788);
+}
+
+.Sanemi {
+    grid-area: Sanemi;
+    background: rgba(34, 34, 36, 0.788);
+}
+
 @media (max-width: 991px) {
 
     #Personajes {
@@ -139,6 +204,22 @@ header {
         "Nezuko"
         "Zenitsu"
         "inosuke";
+
+        margin: 400px 10px 0;
+    }
+
+    #pilares {
+        grid-template-areas:
+        "header"
+        "Giyu"
+        "Shinobu"
+        "Kyojuro"
+        "Tengen"
+        "Mitsuri"
+        "Muichiro"
+        "Gyomei"
+        "Obanai"
+        "Sanemi";
 
         margin: 400px 10px 0;
     }
