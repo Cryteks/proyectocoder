@@ -130,7 +130,17 @@ header {
     background: rgba(34, 34, 36, 0.788);
   }
 
+@media (max-width: 991px) {
 
+    #Personajes {
+        grid-template-areas:
+        "header"
+        "Tanjiro"
+        "Nezuko"
+        "Zenitsu"
+        "inosuke";
+
+}
 
 
 
